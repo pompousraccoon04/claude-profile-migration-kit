@@ -1,0 +1,4 @@
+# Machine-specific: holds the user's profile path and folder names.
+migration-settings.psd1
+# Written by diagnose.ps1; contains account and path names.
+diagnose-output.txt
