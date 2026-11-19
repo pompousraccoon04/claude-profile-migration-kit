@@ -76,6 +76,9 @@ Walk the user through these, one at a time:
   stored per account). Known limit: the desktop sidebar may not show copied sessions
   ([anthropics/claude-code#69585](https://github.com/anthropics/claude-code/issues/69585)).
   `cd` into a project and run `claude --resume`; it should list that project's past sessions.
+  To get one back into the desktop app, resume it in the terminal and type `/desktop`, which
+  continues that session in Claude Desktop. It works one session at a time, so suggest it for
+  the conversations the user actually wants to keep working in, not all of them.
 - **Git:** `git status` and `git fetch` in a repo. Git Credential Manager asks to sign in once.
 - **SSH:** `ssh -T git@github.com`, and any other host in `~\.ssh\config`. Re-add keys with
   `ssh-add` if they used an agent.

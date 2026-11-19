@@ -52,6 +52,8 @@ Things that never carry over between Windows accounts, whatever you do: saved si
 `gh`, Git Credential Manager, MCP connectors) and user environment variables. Expect to sign in
 again. The desktop app's sidebar may also not show copied sessions
 ([anthropics/claude-code#69585](https://github.com/anthropics/claude-code/issues/69585));
-`claude --resume` from a project folder does.
+`claude --resume` from a project folder does. To move a conversation back into the desktop app,
+resume it in the terminal and type `/desktop`; it continues there. That works one conversation
+at a time, so do it for the ones you're still working in.
 
 Tested on Windows 11 with Windows PowerShell 5.1 and the Claude desktop app (MSIX install).
